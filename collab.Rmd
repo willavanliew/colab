@@ -1,7 +1,7 @@
 ---
-title: "collaboration"
+title: "Collab"
 author: "Willa Van Liew"
-date: "2023-01-12"
+date: "2023-01-11"
 output: html_document
 ---
 
@@ -9,8 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## R Markdown
 
 ```{r}
+library(tidyverse)
+mtcars %>% summary
 
 ```
 
