@@ -16,4 +16,12 @@ library(tidyverse)
 mtcars %>% summary
 
 ```
+```{r}
+mtcars %>% 
+   ggplot() + 
+   aes(x=cyl) + 
+   geom_bar() + 
+   theme_minimal()
+```
+
 
